@@ -1,6 +1,7 @@
 from flask import render_template, url_for, redirect, jsonify
 from flask_bootstrap import Bootstrap
 from app import app, db
+from api import *
 with app.app_context():
     from model import *
 

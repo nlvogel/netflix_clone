@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Series - Season # | Episode #: Episode Title</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--series graphic-->
+  <div class="container-fluid mt-5" style="max-width: 1200px;">
+    <h1>Series Title - Season #</h1>
+    <div class="row">
+      <div class="mb-2 col-lg-7 col-md-7">
+        <div class="ratio ratio-16x9" style="background-color: black; height: 100%; color:white">
+          <p>Make this an embed box that changes based on the episode selected. At this point, what's the purpose of separating series from episode? I guess for API purposes? Defaults to series graphic.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-5">
+        <p class="lh-sm mb-0">This is the place for the series description. It will be longer and include things like:</p>
+        <p class="mb-0">Genre: <span class="fst-italic">Horror, comedy</span> and</p>
+        <p>Cast: <span class="fst-italic">Jason Statham, Carrie Underwood</span></p>
+      </div>
+    </div>
+  </div>
+  <!--what season-->
+  <!--series description-->
+  <!--other episodes-->
+
+  <div class="container-fluid mt-3 accordion accordion-flush" style="max-width: 1200px;" id="myGroup">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-heading1">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+          Season 1
+        </button>
+      </h2>
+      <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#myGroup">
+        <div class="row mt-2">
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="list-group list-group-flush" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="s1e1-list" aria-current="true" data-bs-toggle="list" role="tab" aria-controls="s1e1" href="#s1e1">S1 - Current episode</a>
+              <a class="list-group-item list-group-item-action" id="s1e2-list" data-bs-toggle="list" role="tab" aria-controls="s1e2" href="#s1e2">Next episode</a>
+              <a class="list-group-item list-group-item-action" id="s1e3-list" data-bs-toggle="list" role="tab" aria-controls="s1e3" href="#s1e3">The following episode</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="tab-content" id="nav-tabContent">
+              <p id="s1e1" role="tabpanel" aria-labelledby="s1e1-list" class="tab-pane fade show active">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap.</p>
+              <p id="s1e2" role="tabpanel" aria-labelledby="s1e2-list" class="tab-pane fade">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap.</p>
+              <p id="s1e3" role="tabpanel" aria-labelledby="s1e3-list" class="tab-pane fade">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-heading2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+          Season 2
+        </button>
+      </h2>
+      <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#myGroup">
+        <div class="row mt-2">
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="list-group list-group-flush" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="s2e1-list" aria-current="true" data-bs-toggle="list" role="tab" aria-controls="s2e1" href="#s2e1">S2 - Current episode</a>
+              <a class="list-group-item list-group-item-action" id="s2e2-list" data-bs-toggle="list" role="tab" aria-controls="s2e2" href="#s2e2">Next episode</a>
+              <a class="list-group-item list-group-item-action" id="s2e3-list" data-bs-toggle="list" role="tab" aria-controls="s2e3" href="#s2e3">The following episode</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="tab-content" id="nav-tabContent">
+              <p id="s2e1" role="tabpanel" aria-labelledby="s2e1" class="tab-pane fade show active">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap.</p>
+              <p id="s2e2" role="tabpanel" aria-labelledby="s2e2" class="tab-pane fade">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap. sdfgs</p>
+              <p id="s2e3" role="tabpanel" aria-labelledby="s2e3" class="tab-pane fade">This is the episode description. This should change when the episode changes. I'm going a little further so there is a wrap.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</footer>
